@@ -1,205 +1,29 @@
-/* Global Styles */
-body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
-}
-
-h1, h2, h3 {
-  color: #222;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Navbar Styles */
-nav {
+.nav {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 70%;
   align-items: center;
-  background-color: rgba(0, 50, 20, 0.85); /* Unique green-black transparency */
-  padding: 20px;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+  background-color: darkolivegreen;
 }
 
-nav .logo {
-  font-size: 1.8em;
-  font-weight: bold;
-  color: #fff;
-}
-
-nav ul {
+.nav-items {
   display: flex;
-  gap: 20px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%
 }
 
-nav ul li a {
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
+.text-white {
+    color: white;
 }
 
-nav ul li a:hover {
-  background-color: #4CAF50;
-}
+.hero {
+    background-image: url(../assets/imagereplace0010.webp);
+    height: 100vh;
+    background-size: cover;
+    padding-left: 10%;
+    /* note: margin creates outer spaces and padding creates inner space */
+  }
 
-/* Header Section */
-.header {
-  height: 100vh;
-  background-image: url('header-bg.jpg'); /* Add a background image */
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px;
-  background-color: rgba(0, 100, 50, 0.85); /* Unique overlay color */
-}
 
-.header h1 {
-  font-size: 3.5em;
-  margin: 0;
-}
-
-.header p {
-  font-size: 1.4em;
-  margin: 20px 0;
-}
-
-.header .btn {
-  background-color: #4CAF50;
-  padding: 15px 30px;
-  border-radius: 25px;
-  font-size: 1em;
-  margin-top: 20px;
-  transition: background-color 0.3s;
-}
-
-.header .btn:hover {
-  background-color: #388E3C;
-}
-
-/* About Section */
-.about-section {
-  padding: 80px 20px;
-  background-color: #fff;
-  text-align: center;
-}
-
-.about-section h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.about-section p {
-  font-size: 1.2em;
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
-/* Services Section */
-.services-section {
-  padding: 80px 20px;
-  background-color: #f9f9f9;
-  text-align: center;
-}
-
-.services-section h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.services-section .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.service-box {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-}
-
-.service-box:hover {
-  transform: translateY(-10px);
-}
-
-.service-box h3 {
-  margin-bottom: 15px;
-}
-
-.service-box p {
-  font-size: 1em;
-  line-height: 1.6;
-}
-
-/* Clients Section */
-.clients-section {
-  padding: 80px 20px;
-  background-color: #e3e3e3;
-  text-align: center;
-}
-
-.clients-section h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-/* Contact Section */
-.contact-section {
-  padding: 80px 20px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
-
-.contact-section h2 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-}
-
-.contact-section p {
-  font-size: 1.2em;
-}
-
-.contact-section .btn {
-  background-color: #4CAF50;
-  padding: 15px 30px;
-  border-radius: 25px;
-  font-size: 1em;
-  margin-top: 20px;
-  transition: background-color 0.3s;
-}
-
-.contact-section .btn:hover {
-  background-color: #388E3C;
-}
-
-/* Footer */
-footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #222;
-  color: #fff;
-  font-size: 0.9em;
-}

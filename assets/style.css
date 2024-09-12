@@ -1,14 +1,35 @@
-*{
-text-decoration: none;
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
 /* Top Bar for Contact Info */
 .top-bar {
-background-color: #ffffff;
-color: rgb(0, 0, 0);
-text-align: center;
-padding: 0 0;
-font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  /* background-color: #ffffff; */
+  color: rgb(0, 0, 0);
+  text-align: center;
+  /* padding: 0 0; */
+  /* font-size: 12px; */
+}
+
+.top-mission {
+  display: flex;
+  align-items: center;
+}
+
+.top-contact-info {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
 }
 
 /* Nav Bar */
@@ -28,9 +49,10 @@ font-size: 14px;
 }
 
 .nav-items {
-display: flex;
-justify-content: space-evenly;  
-align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
 }
 
 .nav-links {
@@ -44,11 +66,12 @@ align-items: center;
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .quote-btn {
-  background-color: #FFD700; /* Gold for "Get a Quote" */
+  background-color: #FFD700;
+  /* Gold for "Get a Quote" */
   color: #001F3F;
   padding: 10px 20px;
   border: none;
@@ -57,18 +80,20 @@ align-items: center;
 }
 
 .quote-btn:hover {
-  background-color: #FFC107; /* Darker gold */
+  background-color: #FFC107;
+  /* Darker gold */
 }
 
 /* Hero Section */
 .hero {
-  background-image: url('../assets/imagereplace0010.webp'); /* Add the hero background image */
+  background-image: url('../assets/cleaning\ image1.jpeg');
+  /* Add the hero background image */
   height: 100vh;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
 }
 
@@ -88,8 +113,3 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
-
-
-
-
-

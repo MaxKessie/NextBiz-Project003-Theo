@@ -1,29 +1,95 @@
+*{
+text-decoration: none;
+}
+
+/* Top Bar for Contact Info */
+.top-bar {
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+text-align: center;
+padding: 0 0;
+font-size: 14px;
+}
+
+/* Nav Bar */
 .nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 70%;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: darkolivegreen;
+  background-color: rgb(52, 18, 207);
+  padding: 15px;
+  height: 70px;
+}
+
+.company-logo {
+  color: white;
+  font-size: 24px;
+  margin-left: 20px;
 }
 
 .nav-items {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 70%
+display: flex;
+justify-content: space-evenly;  
+align-items: center;
+}
+
+.nav-links {
+  color: white;
+  margin: 0 15px;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: #ffd700;
 }
 
 .text-white {
     color: white;
 }
 
+.quote-btn {
+  background-color: #FFD700; /* Gold for "Get a Quote" */
+  color: #001F3F;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quote-btn:hover {
+  background-color: #FFC107; /* Darker gold */
+}
+
+/* Hero Section */
 .hero {
-    background-image: url(../assets/imagereplace0010.webp);
-    height: 100vh;
-    background-size: cover;
-    padding-left: 10%;
-    /* note: margin creates outer spaces and padding creates inner space */
-  }
+  background-image: url('../assets/imagereplace0010.webp'); /* Add the hero background image */
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-info p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.hero-info h5 {
+  font-size: 24px;
+}
+
+/* Footer */
+footer {
+  background-color: #001F3F;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
 
 

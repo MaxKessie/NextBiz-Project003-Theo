@@ -165,3 +165,39 @@ footer {
   object-fit: cover;
   border-radius: 8px;
 }
+
+.about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #ffffff; /* Light gray background */
+}
+
+.about-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.about-content h2 {
+  font-size: 2em;
+  color: #2c3e50; /* Dark blue text */
+}
+
+.about-content p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.8;
+}
+
+.about-image {
+  flex: 1;
+  text-align: center;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 700px;
+  border-radius: 8px; /* Adds a little style with rounded corners */
+}
+

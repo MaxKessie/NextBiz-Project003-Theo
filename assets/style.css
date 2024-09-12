@@ -15,8 +15,9 @@
   justify-content: space-between;
   height: 2rem;
   /* background-color: #ffffff; */
-  color: rgb(0, 0, 0);
+  color: rgb(65, 77, 109);
   text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   /* padding: 0 0; */
   /* font-size: 12px; */
 }
@@ -108,8 +109,59 @@
 
 /* Footer */
 footer {
-  background-color: #001F3F;
+  background-color: #3412CF;
   color: white;
   text-align: center;
   padding: 20px 0;
+}
+
+.services-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 40px;
+  background-color: #5e9c84;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.service-item h3 {
+  font-size: 1.5em;
+  color: #3412CF; /* You can adjust to match your business color */
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.services-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Styling the overall section */
+.services-section {
+  margin: 50px 0;
+}
+
+.services-section img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
 }

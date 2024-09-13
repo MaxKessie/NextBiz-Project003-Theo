@@ -114,6 +114,14 @@
   text-align: center;
 }
 
+.hero-info{
+  background-color: rgba(0, 0, 0, 0.6);
+  height: fit-content;
+  width: 50%;
+  border-radius: 30px;
+  color:white;
+}
+
 .hero-info p {
   font-size: 32px;
   font-weight: bold;
@@ -219,4 +227,9 @@ footer {
   max-width: 700px;
   border-radius: 8px;
   /* Adds a little style with rounded corners */
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: ;
 }

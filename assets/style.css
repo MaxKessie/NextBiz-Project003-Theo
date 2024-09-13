@@ -5,10 +5,11 @@
   overflow-x: hidden;
 }
 
-.container{
+.container {
   width: 80%;
   margin: 0 auto;
 }
+
 /* Top Bar for Contact Info */
 .top-bar {
   display: flex;
@@ -17,23 +18,30 @@
   /* background-color: #ffffff; */
   color: rgb(65, 77, 109);
   text-align: center;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   top: 0;
   left: 0;
-
+  background-color: #FFD700;
+  position: fixed;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  width: 100%;
   /* padding: 0 0; */
   /* font-size: 12px; */
 }
 
 .top-mission {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: auto;
 }
 
 .top-contact-info {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 20px;
+  padding-left: 20rem;
 }
 
 /* Nav Bar */
@@ -146,7 +154,8 @@ footer {
 
 .service-item h3 {
   font-size: 1.5em;
-  color: #3412CF; /* You can adjust to match your business color */
+  color: #3412CF;
+  /* You can adjust to match your business color */
   margin-bottom: 10px;
 }
 
@@ -179,7 +188,8 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  background-color: #ffffff; /* Light gray background */
+  background-color: #ffffff;
+  /* Light gray background */
 }
 
 .about-content {
@@ -189,7 +199,8 @@ footer {
 
 .about-content h2 {
   font-size: 2em;
-  color: #2c3e50; /* Dark blue text */
+  color: #2c3e50;
+  /* Dark blue text */
 }
 
 .about-content p {
@@ -206,6 +217,6 @@ footer {
 .about-image img {
   width: 100%;
   max-width: 700px;
-  border-radius: 8px; /* Adds a little style with rounded corners */
+  border-radius: 8px;
+  /* Adds a little style with rounded corners */
 }
-
